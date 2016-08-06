@@ -1,4 +1,17 @@
-The set of variables that are: 
+* The activity labels are: 
+
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
+* The subjects are a number between 1 and 30.
+
+
+* The set of variables that are: 
+
 ```
   [1] tBodyAcc-mean()-X                    tBodyAcc-mean()-Y                   
   [3] tBodyAcc-mean()-Z                    tBodyAcc-std()-X                    
