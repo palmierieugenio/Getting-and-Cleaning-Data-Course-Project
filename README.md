@@ -23,6 +23,8 @@ The final output of splitmean() is a matrix with this structure:
 ```
 Where the first dimnames are the variables and the second one are the labels and subjects used as factors to calculate the mean of the variables. For example, in "WALKING.1", "WALKING" is the label factor and "1" the subject factor (I didn't find a qualitative variable for the subject).
 
+That's a part of the head(data.split,2) output:
+
 ```
 head(data.split,2)
                     WALKING.1 WALKING_UPSTAIRS.1 WALKING_DOWNSTAIRS.1    SITTING.1  STANDING.1    LAYING.1
