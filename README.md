@@ -23,7 +23,8 @@ The final output of splitmean() is a matrix with this structure:
 ```
 Where the first dimnames are the variables and the second one are the labels and subjects used as factors to calculate the mean of the variables. For example, in "WALKING.1", "WALKING" is the label factor and "1" the subject factor (I didn't find a qualitative variable for the subject).
 
-```head(data.split,2)
+```
+head(data.split,2)
                     WALKING.1 WALKING_UPSTAIRS.1 WALKING_DOWNSTAIRS.1    SITTING.1  STANDING.1    LAYING.1
 tBodyAcc-mean()-X  0.27733076         0.25546169          0.289188320  0.261237565  0.27891763  0.22159824
 tBodyAcc-mean()-Y -0.01738382        -0.02395315         -0.009918505 -0.001308288 -0.01613759 -0.04051395
