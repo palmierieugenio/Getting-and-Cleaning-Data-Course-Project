@@ -11,4 +11,4 @@ The run_analysis.R includes 3 functions that covers these parts of the assignmen
 * 2 Extracts only the measurements on the mean and standard deviation for each measurement.
 
 ### splitmean() :
-* 5From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
