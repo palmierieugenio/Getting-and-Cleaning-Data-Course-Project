@@ -2,7 +2,7 @@
 
 # 1. Merges the training and the test sets to create one data set.
 
-# I'm not sure if it's what you were expecting, but not understanding what was ID to use to merge the data,
+# I'm not sure if it's what you were expecting, but not understanding what was the ID to use to merge the data,
 # I've just combined the two data set with rbind(), because they had the same column dimensions.
 # 
 # 3. Uses descriptive activity names to name the activities in the data set:
