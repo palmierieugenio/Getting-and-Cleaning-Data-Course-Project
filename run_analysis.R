@@ -62,8 +62,8 @@ splitmean<-function(data.meanstd){
         dataridotto<-data.meanstd[,-(1:2)]
         
         diviso<-split(dataridotto,f=list(label,subject))
-        A<-sapply(diviso,colMeans)
-        A
+        data.split<-sapply(diviso,colMeans)
+        data.split
 }
 
 splitmean(data.meanstd)->data.split
