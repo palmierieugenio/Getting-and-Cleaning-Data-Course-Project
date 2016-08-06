@@ -53,7 +53,7 @@ justmeanstd(data)->data.meanstd
 # splitmean() thake the output of the previous function as input and:
 # 5. From the data set in step 4, creates a second,independent tidy data set
 # with the average of each variable for each activity and each subject.
-# I've used the labels and subjects as factors, I'm not completely sure if they were the rigth factors..
+# I've used the labels and subjects as factors.
 
 splitmean<-function(data.meanstd){
         label<-data.meanstd$labels
